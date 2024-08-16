@@ -1,0 +1,97 @@
+/* body {
+    background-image:url(rainbow-color.jpg);
+    background-size: cover;
+} */
+#rgb1 {
+    background-color: rgb(232, 20, 22);
+}
+#rgb2 {
+    background-color: rgb(255, 165, 0);
+}
+#rgb3 {
+    background-color: rgb(250, 235, 54);
+}
+#rgb4 {
+    background-color: rgb(121, 195, 20);
+}
+#rgb5 {
+    background-color: rgb(72, 125, 231);
+}
+#rgb6 {
+    background-color: rgb(75, 54, 157);
+}
+#rgb7 {
+    background-color: rgb(112, 54, 157);
+}
+.main-container {
+    height: auto;
+    width: 250vh - 5%;
+    text-align: center;
+    padding: 6.25rem 3.125rem 3.125rem 3.125rem;
+}
+.divContainer, .divContainer2 {
+    height: auto;
+    width: 250vh - 10%;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 1.5625.rem;
+}
+.divContainer div {
+    height: 12.5rem;
+    width: 12.5rem;
+    margin: 1.0625rem;
+    border: 0.15625rem solid black;
+    border-radius: 10%;
+}
+.divContainer2 div {
+    height: 3.4375rem;
+    line-height: 3.125rem;
+    width: 12.5rem;
+    margin: 1.0625rem;
+    border: 0.125rem solid rgba(0, 0, 0, 0.737);
+    border-radius: 1.875rem;
+    background-color: rgba(245, 222, 179, 0.666);
+    color: rgba(0, 0, 0, 0.666);
+}
+button {
+    height: 6.25rem;
+    width: 25rem;
+    margin: 1.0625rem;
+    border: 0.15625rem solid black;
+    border-radius: 3.125rem;
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: "Times New Roman";
+    color: black;
+    background-color: rgba(245, 222, 179, 0.916);
+    margin-top: 6.25rem;
+}
+button:hover {
+    background-color: rgba(0, 0, 0, 0.936);
+    color: rgba(255, 255, 255, 0.978);
+    transition: 0.75s;
+    /* border: 2.5px solid black; */
+}
+.divContainer2 {
+    font-weight: 800;
+    font-size: x-large;
+    font-family: "Times New Roman";
+    padding-top: 1.25rem;
+}
+
+.divContainer2 div:hover {
+    background-color: rgba(0, 0, 0, 0.86);
+    color: rgba(255, 255, 255, 0.903);
+    transition: 0.75s;
+}
+.divContainer div:hover {
+    border-radius: 30%;
+    transition: 0.5s;
+}
+@media screen and (max-width: 1900px) {
+    .divContainer2 div {
+        font-size: medium;
+        height: 2rem;
+        line-height: 2rem;
+    }
+}
