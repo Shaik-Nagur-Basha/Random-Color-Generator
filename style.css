@@ -71,6 +71,7 @@ button:hover {
     color: rgba(255, 255, 255, 0.978);
     transition: 0.75s;
     /* border: 2.5px solid black; */
+    cursor: pointer;
 }
 .divContainer2 {
     font-weight: 800;
